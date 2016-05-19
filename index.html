@@ -13,17 +13,19 @@
     <base href="/">
   </head>
   <body ng-controller="MainCtrl">
-    <div>
+    <div id="header-bar">
       {{test}}
     </div>
 
-    <div class="slide-animate-container">
+    <div id="content" class="slide-animate-container">
       <div class="slide-animate" ng-include="template.url"></div>
     </div>
 
-    <ul id=menu ng-repeat="template in templates">
-      <li><button ng-click="changeTemplate(template.name)" id="template.name-menu">{{template.name}}</button>
-    </ul>
+    <div id="menu">
+      <ul ng-repeat="template in templates">
+        <li><a href ng-click="changeTemplate(template.name)" id="template.name-menu">{{template.name}}</a></li>
+      </ul>
+    </div>
 
   </body>
 </html>

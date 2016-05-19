@@ -3,4 +3,53 @@
   bottom: 0;
   right: 0px;
   left:0px;
+  z-index: 9999;
+  height: 70px;
+  width: 100%;
+  background-color: #729f98;
+}
+
+#menu ul{
+  width: 100%;
+  margin: 0 auto;
+  list-style: none;
+}
+
+#menu ul li {
+  float: left;
+  width: 25%;
+  line-height: 46px;
+}
+
+#menu ul li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 10px;
+  margin-right: 80px;
+}
+
+#menu ul li a:hover {
+}
+
+#header-bar{
+  z-index: 9999;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: #729f98;
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+}
+
+.fix-body {
+    margin-top: 50px;
+}
+
+#content {
+  text-align: center;
+  width: 80%;
+  margin: 25px auto;
 }

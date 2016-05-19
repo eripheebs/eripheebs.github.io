@@ -2,9 +2,14 @@ eriApp.controller('MainCtrl', ['$scope', function($scope){
   $scope.test = 'Hello world!';
 
   $scope.templates =
-   [ { name: 'welcome', url: 'https://eripheebs.github.io/app/partials/welcome.html'} ];
+    [ { name: 'welcome', url: 'https://eripheebs.github.io/app/partials/welcome.html'},
+    { name: 'portfolio', url: 'https://eripheebs.github.io/app/partials/portfolio.html'},
+    { name: 'blog', url: 'https://eripheebs.github.io/app/partials/blog.html'},
+    { name: 'cv', url: 'https://eripheebs.github.io/app/partials/cv.html'} ];
 
-  $scope.template = $scope.templates[0];
+  var initialTemplate = { name: 'home', url: 'https://eripheebs.github.io/app/partials/home.html'};
+
+  $scope.template = initialTemplate;
 
   $scope.changeTemplate = function(templateName){
     $scope.template = _findUrl(templateName);
