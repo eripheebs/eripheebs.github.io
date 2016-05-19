@@ -1,27 +1,27 @@
-var eriApp = angular.module('eriApp', [])
+var eriApp = angular.module('eriApp', ['ngRoute'])
 
 .config(function($routeProvider, $locationProvider) {
 
     $routeProvider
         .when('/', {
             templateUrl : 'partials/home.html',
-            controller : MainCtrl
+            controller : 'MainCtrl'
         })
         .when('/welcome', {
             templateUrl : 'partials/welcome.html',
-            controller : MainCtrl
+            controller : 'MainCtrl'
         })
         .when('/portfolio', {
             templateUrl : 'partials/portfolio.html',
-            controller : MainCtrl
+            controller : 'MainCtrl'
         })
         .when('/blog', {
             templateUrl : 'partials/blog.html',
-            controller : MainCtrl
+            controller : 'MainCtrl'
         })
         .when('/cv', {
             templateUrl : 'partials/cv.html',
-            controller : MainCtrl
+            controller : 'MainCtrl'
         });
 
     $locationProvider.html5Mode(true);
