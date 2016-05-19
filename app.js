@@ -5,17 +5,24 @@ var eriApp = angular.module('eriApp', [])
     $routeProvider
         .when('/', {
             templateUrl : 'partials/home.html',
-            controller : mainController
+            controller : MainCtrl
         })
-        .when('/about', {
-            templateUrl : 'partials/about.html',
-            controller : mainController
+        .when('/welcome', {
+            templateUrl : 'partials/welcome.html',
+            controller : MainCtrl
         })
-        .when('/contact', {
-            templateUrl : 'partials/contact.html',
-            controller : mainController
+        .when('/portfolio', {
+            templateUrl : 'partials/portfolio.html',
+            controller : MainCtrl
+        })
+        .when('/blog', {
+            templateUrl : 'partials/blog.html',
+            controller : MainCtrl
+        })
+        .when('/cv', {
+            templateUrl : 'partials/cv.html',
+            controller : MainCtrl
         });
 
-    // use the HTML5 History API
     $locationProvider.html5Mode(true);
 });
