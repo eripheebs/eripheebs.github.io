@@ -20,9 +20,9 @@
   </head>
   <body ng-controller="MainCtrl">
 
-    <div class="col-3">
+    <div class="col-3" id="menu">
       <ul ng-repeat="template in templates">
-        <li><a href ng-click="changeTemplate(template.name)" id="template.name-menu">{{template.name}}</a></li>
+        <li><a href ng-click="changeTemplate({{template.name}})" id="{{template.name}}-menu">{{template.name}}</a></li>
       </ul>
     </div>
 
