@@ -21,7 +21,7 @@ eriApp.controller('MainCtrl', ['$scope', function($scope){
   }
 
   $scope.notHome = function(){
-    return !($scope.users = initialTemplate);
+    return !($scope.users == initialTemplate);
   }
 
 }]);
