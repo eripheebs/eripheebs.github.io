@@ -83,10 +83,6 @@ h1{
   text-align: center;
 }
 
-#animator {
-  width: 90%;
-}
-
 #content {
   width: 90%;
   height: 70%;
@@ -98,20 +94,11 @@ h1{
   overflow: auto;
 }
 
-#temp {
+#hold-template {
   padding: 20%;
 }
 
-.slide-animate-container {
-  width: 90%;
-  overflow:hidden;
-}
-
-.slide-animate {
-  padding:10px;
-}
-
-.slide-animate.ng-enter, .slide-animate.ng-leave {
+#content {
   -webkit-transition:all linear 0.5s;
-    transition:all linear 0.5s;
+  transition:all linear 0.5s;
 }
