@@ -2,12 +2,13 @@ body {
   background-image: url("images/6.jpg");
   background-size: 100%;
   font-family: Quicksand;
-  color: #b56e1d
+  color: #b56e1d;
 }
 
 h1{
   font-family: Josefin Sans;
   font-size: 12px;
+  letter-spacing: 20px;
 }
 
 #header-bar {
@@ -25,12 +26,12 @@ h1{
 
 #menu {
   position: fixed;
-  bottom: 0;
-  right: 0px;
-  left:0px;
+  bottom: 20px;
+  right: 20%;
+  left: 5%;
   z-index: 9999;
   height: 70px;
-  width: 100%;
+  width: 90%;
   background-color: rgba(22, 35, 32, 1);
 }
 
@@ -44,7 +45,7 @@ h1{
 #menu ul li {
   float: left;
   width: 25%;
-  box-shadow:inset 0px 0px 1px 0px #000;
+  /*box-shadow:inset 0px 0px 1px 0px #000;*/
   line-height: 70px;
 }
 
@@ -56,7 +57,9 @@ h1{
   display: block;
   text-align: center;
   text-decoration: none;
-  font-family: Quicksand;
+  font-family: Inder;
+  letter-spacing: 4px;
+  color: #f0eceb;
   text-transform: uppercase;
 }
 
@@ -65,7 +68,7 @@ h1{
 }
 
 #menu ul li a:visited {
-  color: #b56e1d;
+  color: #f0eceb;
 }
 
 #menu ul li a:active {
