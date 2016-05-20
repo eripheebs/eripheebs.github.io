@@ -1,98 +1,32 @@
-body {
-  background: url("images/1.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  font-family: Quicksand;
-  color: #162320;
-  font-size: 16px;
+* {
+    box-sizing: border-box;
 }
-
-h1{
-  font-family: Josefin Sans;
-  color: #243257;
-  font-size: 15px;
-  letter-spacing: 20px;
+.header {
+    border: 1px solid red;
+    padding: 15px;
+    position:fixed;
+    bottom: 0;
+    right: 0;
 }
-
-#header-bar {
-  z-index: 9999;
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  background-color: rgba(193, 208, 228, 1);
-  height: 10%;
-  padding: 15px 15px 15px 15px;
-  text-align: center;
+.menu::after {
+    content: "";
+    clear: both;
+    display: block;
 }
-
-#menu {
-  position: fixed;
-  bottom: 20px;
-  right: 20%;
-  left: 5%;
-  z-index: 9999;
-  height: 70px;
-  width: 90%;
-  background-color: rgba(22, 35, 32, 1);
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
 }
-
-#menu ul{
-  width: 100%;
-  margin: 0 auto;
-  padding: 0;
-  list-style: none;
-}
-
-#menu ul li {
-  float: left;
-  width: 25%;
-  /*box-shadow:inset 0px 0px 1px 0px #000;*/
-  line-height: 70px;
-}
-
-#menu ul li:hover {
-  box-shadow:inset 0px 0px 5px 0px #000;
-}
-
-#menu ul li a {
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  font-family: Inder;
-  font-size: 50%;
-  letter-spacing: 4px;
-  color: #f0eceb;
-  text-transform: uppercase;
-}
-
-#menu ul li a:hover {
-  color: black;
-}
-
-#menu ul li a:visited {
-  color: #f0eceb;
-}
-
-#menu ul li a:active {
-  color: #b56e1d;
-}
-
-#wrapper {
-  width: 100%;
-  margin: 0 auto;
-  text-align: center;
-}
-
-#content {
-  width: 90%;
-  height: 70%;
-  position: fixed;
-  top: 20%;
-  left: 50%;
-  margin-left: -45%;
-  background-color: rgba(116, 136, 138, 0.8);
-  overflow: auto;
-}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
