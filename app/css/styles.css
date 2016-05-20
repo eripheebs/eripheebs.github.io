@@ -8,7 +8,7 @@ body {
 
 h1{
   font-family: Josefin Sans;
-  color: #b56e1d;
+  color: #243257;
   font-size: 12px;
   letter-spacing: 20px;
 }
@@ -19,11 +19,10 @@ h1{
   left: 0;
   top: 0;
   width: 100%;
-  background-color: rgba(36, 50, 87, 1);
+  background-color: rgba(99, 96, 135, 1);
   height: 50px;
   padding: 15px 15px 15px 15px;
   text-align: center;
-  box-shadow:inset 0px 0px 2px 0px #000;
 }
 
 #menu {
