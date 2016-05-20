@@ -2,7 +2,7 @@ eriApp.controller('MainCtrl', ['$scope', function($scope){
   $scope.title = 'ERIKA PHEBY';
 
   $scope.templates =
-    [ { name: 'welcome', url: 'https://eripheebs.github.io/app/partials/welcome.html'},
+    [ { name: 'home', url: 'https://eripheebs.github.io/app/partials/home.html'},
     { name: 'portfolio', url: 'https://eripheebs.github.io/app/partials/portfolio.html'},
     { name: 'blog', url: 'https://eripheebs.github.io/app/partials/blog.html'},
     { name: 'cv', url: 'https://eripheebs.github.io/app/partials/cv.html'} ];
