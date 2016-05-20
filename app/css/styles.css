@@ -88,7 +88,8 @@ h1{
   height: 70%;
   position: fixed;
   top: 20%;
-  left: 50%;
+  right: 20%;
+  left: 5%;
   margin-left: -45%;
   background-color: rgba(185, 171, 106, 0.8);
   overflow: auto;
