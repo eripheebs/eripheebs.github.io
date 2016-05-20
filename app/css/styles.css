@@ -1,35 +1,13 @@
-#menu {
-  position: fixed;
-  bottom: 0;
-  right: 0px;
-  left:0px;
-  z-index: 9999;
-  height: 70px;
-  width: 100%;
-  background-color: #729f98;
+body {
+  background-image: url("images/6.jpg");
+  background-size: 100%;
+  font-family: Quicksand;
+  color: #b56e1d
 }
 
-#menu ul{
-  width: 100%;
-  margin: 0 auto;
-  list-style: none;
-}
-
-#menu ul li {
-  float: left;
-  width: 25%;
-  line-height: 46px;
-}
-
-#menu ul li a {
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  padding-top: 10px;
-  margin-right: 80px;
-}
-
-#menu ul li a:hover {
+h1{
+  font-family: Josefin Sans;
+  font-size: 12px;
 }
 
 #header-bar {
@@ -38,14 +16,60 @@
   left: 0;
   top: 0;
   width: 100%;
-  background-color: #729f98;
+  background-color: rgba(22, 35, 32, 1);
   height: 50px;
-  padding: 10px;
+  padding: 15px 15px 15px 15px;
   text-align: center;
+  box-shadow:inset 0px 0px 2px 0px #000;
 }
 
-.fix-body {
-    margin-top: 50px;
+#menu {
+  position: fixed;
+  bottom: 0;
+  right: 0px;
+  left:0px;
+  z-index: 9999;
+  height: 70px;
+  width: 100%;
+  background-color: rgba(22, 35, 32, 1);
+}
+
+#menu ul{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+#menu ul li {
+  float: left;
+  width: 25%;
+  box-shadow:inset 0px 0px 1px 0px #000;
+  line-height: 70px;
+}
+
+#menu ul li:hover {
+  box-shadow:inset 0px 0px 5px 0px #000;
+}
+
+#menu ul li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-family: Quicksand;
+  text-transform: uppercase;
+}
+
+#menu ul li a:hover {
+  color: black;
+}
+
+#menu ul li a:visited {
+  color: #b56e1d;
+}
+
+#menu ul li a:active {
+  color: #f0eceb;
 }
 
 #wrapper {
@@ -54,14 +78,19 @@
   text-align: center;
 }
 
+#animator {
+  width: 90%;
+}
+
 #content {
   width: 90%;
-  height: 50%;
+  height: 70%;
   position: fixed;
-  top: 25%;
+  top: 20%;
   left: 50%;
   margin-left: -45%;
-  background-color: rgba(170, 134, 58, 0.7);
+  background-color: rgba(170, 134, 58, 0.8);
+  overflow: auto;
 }
 
 #temp {

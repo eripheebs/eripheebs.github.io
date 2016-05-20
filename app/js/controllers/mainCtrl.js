@@ -1,5 +1,5 @@
 eriApp.controller('MainCtrl', ['$scope', function($scope){
-  $scope.test = 'Hello world!';
+  $scope.title = 'ERIKA PHEBY';
 
   $scope.templates =
     [ { name: 'welcome', url: 'https://eripheebs.github.io/app/partials/welcome.html'},

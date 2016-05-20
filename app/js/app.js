@@ -1,4 +1,4 @@
-var eriApp = angular.module('eriApp', ['ngRoute'])
+var eriApp = angular.module('eriApp', ['ngRoute', 'ngAnimate'])
 
 .config(function($routeProvider, $locationProvider) {
 
