@@ -169,7 +169,7 @@ h1 {
   padding-right: 20px;
 }
 
-.header{
+.header {
   -webkit-text-fill-color: transparent;
    background: -webkit-linear-gradient(transparent, transparent),
                url(images/bg2.jpg) repeat;
@@ -177,20 +177,20 @@ h1 {
    -webkit-background-clip: text;
 }
 
-#content{
+#template {
   padding: 20%;
   font-family: Inder;
   font-size: 20px;
   color: #f0eceb;
 }
 
-#content a{
+#template a{
   text-decoration: none;
   color: #708f97;
 }
-#content a:visited {
+#template a:visited {
   color: #f0eceb;
 }
 
-#content a:active {
+#template a:active {
   color: #b56e1d;
