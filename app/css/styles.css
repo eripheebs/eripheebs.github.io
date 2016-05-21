@@ -188,7 +188,7 @@ body{
 }
 
 h1 {
-  font-family: Righteous;
+  font-family: Voltaire;
   text-rendering: optimizeLegibility;
   font-size: 500%;
   margin-bottom: 0;
@@ -214,7 +214,7 @@ h1 {
 .header {
   -webkit-text-fill-color: transparent;
    background: -webkit-linear-gradient(transparent, transparent),
-               url(images/bg2.jpg) repeat;
+               url(images/bg4.jpg) repeat;
    background: -o-linear-gradient(transparent, transparent);
    -webkit-background-clip: text;
 }
