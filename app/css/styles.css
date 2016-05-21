@@ -13,6 +13,7 @@ body{
     position:fixed;
     bottom: 0;
     right: 0;
+    padding-left: 5%;
     font-family: Inder;
     font-size: 90%;
     letter-spacing: 20px;
@@ -175,3 +176,21 @@ h1 {
    background: -o-linear-gradient(transparent, transparent);
    -webkit-background-clip: text;
 }
+
+#content{
+  padding: 20%;
+  font-family: Inder;
+  font-size: 20px;
+  color: #f0eceb;
+}
+
+#content a{
+  text-decoration: none;
+  color: #708f97;
+}
+#content a:visited {
+  color: #f0eceb;
+}
+
+#content a:active {
+  color: #b56e1d;
