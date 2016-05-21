@@ -9,6 +9,26 @@ body{
   background-size: cover;
 }
 
+@media only screen and (max-width: 768px) {
+  body{
+  background: url("images/3-phone.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+}
+
+@media only screen and (orientation: landscape){
+  body{
+  background: url("images/3.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+}
+
 .header {
     position:fixed;
     bottom: 0;
