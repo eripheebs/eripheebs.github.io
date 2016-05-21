@@ -20,21 +20,25 @@
   </head>
   <body ng-controller="MainCtrl">
 
+  <div class="row">
     <div class="col-3" id="menu">
       <ul ng-repeat="template in templates">
         <li id="{{template.name}}-menu"><a href ng-click="changeTemplate({{template.name}})">{{template.name}}</a></li>
       </ul>
+      <div id="style-box-1"></div>
+      <div id="style-box-2"></div>
+      <div id="style-box-3"></div>
+      <div id="style-box-4"></div>
     </div>
 
-    <div class="row">
       <div class="col-9">
         <div id="template" ng-include="template.url"></div>
       </div>
-    </div>
+  </div>
 
     <div class="header">
       <div id="title">
-        <h1>ERIKA</h1> <img id="logo" src="https://eripheebs.github.io/app/css/images/logo.png" /><h1> PHEBY</h1>
+        <h1>ERIKA PHEBY</h1>
       </div>
     </div>
 
