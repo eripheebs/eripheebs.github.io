@@ -103,21 +103,16 @@ body{
     margin: 0;
     padding: 0;
 }
-#menu ul a {
+#menu ul button {
   text-decoration: none;
   font-family: Inder;
   font-size: 90%;
   letter-spacing: 7px;
   text-transform: uppercase;
 }
-#menu ul li a:visited {
-  color: #f0eceb;
-}
 
-#menu ul li a:active {
-  color: #b56e1d;
-}
-#menu li {
+#menu button {
+    border: none;
     padding: 8px;
     margin-bottom: 7px;
     background-color :#353F42;
@@ -125,15 +120,29 @@ body{
     color: #ffffff;
     /*box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);*/
 }
-#menu li:hover {
-    background-color: #4B585C;
+
+#menu ul li button:visited {
+  color: #f0eceb;
 }
 
+#menu ul li button:hover {
+
+}
+
+#menu ul li button:active {
+  color: #b56e1d;
+  border: none;
+}
+
+#menu ul li button:focus {outline:0;}
+
 #blog-menu {
+  text-align: left;
   width: 80.66%;
 }
 
 #home-menu {
+  text-align: left;
   width: 41.66%;
 }
 
@@ -245,3 +254,30 @@ h1 {
 
 #template a:active {
   color: #b56e1d;
+}
+
+#template.ng-enter, #template.ng-leave {
+  transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  display:block;
+  padding:10px;
+}
+
+#template.ng-enter {
+  top:-50px;
+}
+#template.ng-enter.ng-enter-active {
+  top:0;
+}
+
+#template.ng-leave {
+  top:0;
+}
+#template.ng-leave.ng-leave-active {
+  top:50px;
+}
