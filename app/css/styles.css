@@ -156,6 +156,7 @@ body{
 h1 {
   text-rendering: optimizeLegibility;
   font-size: 500%;
+  margin-bottom: 0;
     /*color: #2c2c2c;
     letter-spacing: 20px;
     text-shadow:
@@ -175,6 +176,12 @@ h1 {
                url(images/bg2.jpg) repeat;
    background: -o-linear-gradient(transparent, transparent);
    -webkit-background-clip: text;
+}
+
+.header hr {
+  width: 100%;
+  position: relative;
+  margin-bottom: 10%;
 }
 
 #template {
