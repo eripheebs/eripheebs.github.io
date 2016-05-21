@@ -88,6 +88,8 @@ body{
   display: inline-block;
   position: absolute;
   float:left;
+  border: 0;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #fff, rgba(0, 0, 0, 0));
 }
 
 @media only screen and (max-width: 768px) {
@@ -186,6 +188,7 @@ body{
 }
 
 h1 {
+  font-family: Righteous;
   text-rendering: optimizeLegibility;
   font-size: 500%;
   margin-bottom: 0;
@@ -217,9 +220,12 @@ h1 {
 }
 
 .header hr {
-  width: 100%;
+  width: 170%;
   position: relative;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #fff, rgba(0, 0, 0, 0));
 }
 
 #template {
