@@ -259,7 +259,7 @@ h1 {
   right: 3%;
 }
 
-#template {
+#text {
   position:absolute;
   margin: 0% 15% 15% 15%;
   font-family: Inder;
@@ -270,40 +270,14 @@ h1 {
   overflow: hidden;
 }
 
-#template a{
+#text a{
   text-decoration: none;
   color: #708f97;
 }
-#template a:visited {
+#text a:visited {
   color: ##708f97;
 }
 
-#template a:active {
+#text a:active {
   color: #b56e1d;
-}
-
-#template.ng-enter, #template.ng-leave {
-  transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
-
-  position:absolute;
-  top:0;
-  left:0;
-  right:0;
-  bottom:0;
-  display:block;
-  padding:10px;
-}
-
-#template.ng-enter {
-  top:-50px;
-}
-#template.ng-enter.ng-enter-active {
-  top:0;
-}
-
-#template.ng-leave {
-  top:0;
-}
-#template.ng-leave.ng-leave-active {
-  top:50px;
 }
