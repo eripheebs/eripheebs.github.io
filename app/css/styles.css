@@ -250,13 +250,14 @@ h1 {
   display: inline-block;
   margin-top: 4%;
   margin-bottom: 0;
+
 }
 
 #down {
   display: inline-block;
   position: relative;
   top: 83%;
-  right: 3%;
+  /*right: 7%;*/
 }
 
 #template {

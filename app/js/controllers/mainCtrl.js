@@ -20,7 +20,7 @@ eriApp.controller('MainCtrl', ['$scope', function($scope){
     return searchResult[0];
   }
 
-  $scope.onHome = function(templateName){
+  $scope.onHome = function(){
     return ($scope.template == initialTemplate);
   }
 
