@@ -1,13 +1,13 @@
 eriApp.controller('MainCtrl', ['$scope', function($scope){
   $scope.title = 'ERIKA PHEBY';
 
+  var initialTemplate = { name: 'home', url: 'https://eripheebs.github.io/app/partials/home.html'};
+
   $scope.templates =
-    [ { name: 'home', url: 'https://eripheebs.github.io/app/partials/home.html'},
+    [ initialTemplate,
     { name: 'portfolio', url: 'https://eripheebs.github.io/app/partials/portfolio.html'},
     { name: 'blog', url: 'https://eripheebs.github.io/app/partials/blog.html'},
     { name: 'cv', url: 'https://eripheebs.github.io/app/partials/cv.html'} ];
-
-  var initialTemplate = { name: 'home', url: 'https://eripheebs.github.io/app/partials/home.html'};
 
   $scope.template = initialTemplate;
 
