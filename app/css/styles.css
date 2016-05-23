@@ -259,7 +259,7 @@ h1 {
   right: 3%;
 }
 
-#text {
+#template {
   position:absolute;
   margin: 0% 15% 15% 15%;
   font-family: Inder;
@@ -270,14 +270,14 @@ h1 {
   overflow: hidden;
 }
 
-#text a{
+#template a{
   text-decoration: none;
   color: #708f97;
 }
-#text a:visited {
+#template a:visited {
   color: ##708f97;
 }
 
-#text a:active {
+#template a:active {
   color: #b56e1d;
 }
