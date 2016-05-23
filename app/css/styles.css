@@ -255,19 +255,16 @@ h1 {
 
 #down {
   display: inline-block;
-  position: relative;
-  top: 83%;
-  /*right: 7%;*/
+  margin-top: 2%;
 }
 
 #template {
-  position:absolute;
-  margin: 0% 15% 15% 15%;
+  margin: 0 15%;
   font-family: Inder;
   font-size: 20px;
   color: #f0eceb;
   text-align: justify;
-  height: 75%;
+  height: 70%;
   overflow: hidden;
 }
 
