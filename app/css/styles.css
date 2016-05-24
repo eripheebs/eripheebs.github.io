@@ -242,3 +242,21 @@ h1 {
     overflow:auto;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  #template{
+    height: 40%;
+    overflow:auto;
+  }
+
+  #up {
+    display: none;
+  }
+
+  #down {
+    display: none;
+  }
+  h1 {
+    font-size: 200%;
+  }
+}
