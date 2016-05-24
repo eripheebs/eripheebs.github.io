@@ -30,7 +30,10 @@
     <hr id="menu-hr" width=".8" size="300%">
 
       <div class="col-9 col-m-12" id="content-container">
-        <div id="template" ng-hide="onHome()" ng-include="template.url"></div>
+        <div id="template-back" ng-hide="onHome()">
+          <div id="template" ng-hide="onHome()" ng-include="template.url"></div>
+        </div>
+
       </div>
     </div>
 
