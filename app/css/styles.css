@@ -221,7 +221,8 @@ h1 {
   color: #f0eceb;
   text-align: justify;
   height: 70%;
-  overflow: hidden;
+  /*overflow: hidden;*/
+  overflow: auto;
 }
 
 #template a{
@@ -236,6 +237,24 @@ h1 {
   color: #b56e1d;
 }
 
+#template img:hover {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+  -moz-box-shadow:    0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+  box-shadow:         0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+}
+
+#template img:last-of-type:hover{
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(232, 0, 0, 0.67);
+  -moz-box-shadow:    0px 0px 30px 0px rgba(232, 0, 0, 0.67);
+  box-shadow:         0px 0px 30px 0px rgba(232, 0, 0, 0.67);
+}
+
 @media only screen and (max-width: 768px) {
   #template{
     height: 50%;
@@ -245,7 +264,7 @@ h1 {
 
 @media only screen and (max-width: 600px) {
   #template{
-    height: 40%;
+    height: 50%;
     overflow:auto;
   }
 
@@ -256,6 +275,7 @@ h1 {
   #down {
     display: none;
   }
+
   h1 {
     font-size: 200%;
   }
