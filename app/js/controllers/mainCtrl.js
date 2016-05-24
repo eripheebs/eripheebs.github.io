@@ -2,10 +2,11 @@ eriApp.controller('MainCtrl', ['$scope', function($scope){
   $scope.title = 'ERIKA PHEBY';
 
   var initialTemplate = { name: 'home', url: 'https://eripheebs.github.io/app/partials/home.html'};
+  var portTemplate = { name: 'portfolio', url: 'https://eripheebs.github.io/app/partials/portfolio.html'}
 
   $scope.templates =
     [ initialTemplate,
-    { name: 'portfolio', url: 'https://eripheebs.github.io/app/partials/portfolio.html'},
+    portTemplate,
     { name: 'blog', url: 'https://eripheebs.github.io/app/partials/blog.html'},
     { name: 'cv', url: 'https://eripheebs.github.io/app/partials/cv.html'} ];
 
@@ -21,7 +22,7 @@ eriApp.controller('MainCtrl', ['$scope', function($scope){
   }
 
   $scope.onHome = function(){
-    return ($scope.template == initialTemplate);
+    return $scope.template == initialTemplate;
   }
 
 }]);

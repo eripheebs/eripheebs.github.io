@@ -223,6 +223,7 @@ h1 {
   height: 70%;
   /*overflow: hidden;*/
   overflow: auto;
+  background-color: rgba(225, 225, 225, .9);
 }
 
 #template a{
