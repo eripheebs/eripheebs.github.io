@@ -215,7 +215,7 @@ h1 {
 }
 
 #template {
-  margin: 0 15%;
+  margin: 20% 15% 0 15%;
   font-family: Inder;
   font-size: 20px;
   color: #f0eceb;
@@ -223,7 +223,7 @@ h1 {
   height: 70%;
   /*overflow: hidden;*/
   overflow: auto;
-  background-color: rgba(225, 225, 225, .9);
+  background-color: rgba(225, 225, 225, .3);
 }
 
 #template a{
