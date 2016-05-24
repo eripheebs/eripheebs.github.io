@@ -220,7 +220,7 @@ h1 {
   font-family: Source Code Pro;
   font-size: 14px;
   color: #f0eceb;
-  /*text-align: justify;*/
+  text-align: left;
   height: 80%;
   /*overflow: hidden;*/
   overflow: auto;
