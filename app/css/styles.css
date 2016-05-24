@@ -241,18 +241,9 @@ h1 {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
-  -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
-  -moz-box-shadow:    0px 0px 30px 0px rgba(0, 255, 0, 0.67);
-  box-shadow:         0px 0px 30px 0px rgba(0, 255, 0, 0.67);
-}
-
-#template img:last-of-type:hover{
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  -webkit-box-shadow: 0px 0px 30px 0px rgba(232, 0, 0, 0.67);
-  -moz-box-shadow:    0px 0px 30px 0px rgba(232, 0, 0, 0.67);
-  box-shadow:         0px 0px 30px 0px rgba(232, 0, 0, 0.67);
+  -webkit-box-shadow: 0px 0px 40px 0px rgba(0, 255, 0, 0.67);
+  -moz-box-shadow:    0px 0px 40px 0px rgba(0, 255, 0, 0.67);
+  box-shadow:         0px 0px 40px 0px rgba(0, 255, 0, 0.67);
 }
 
 @media only screen and (max-width: 768px) {
