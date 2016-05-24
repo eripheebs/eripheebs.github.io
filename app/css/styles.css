@@ -218,9 +218,9 @@ h1 {
   margin: 5% 8% 0 10%;
   padding: 4%;
   font-family: Source Code Pro;
-  font-size: 20px;
+  font-size: 14px;
   color: #f0eceb;
-  text-align: justify;
+  /*text-align: justify;*/
   height: 80%;
   /*overflow: hidden;*/
   overflow: auto;
