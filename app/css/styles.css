@@ -215,13 +215,13 @@ h1 {
 }
 
 #template {
-  margin: 10% 15% 0 15%;
+  margin: 5% 8% 0 10%;
   padding: 4%;
-  font-family: Inder;
+  font-family: Source Code Pro;
   font-size: 20px;
   color: #f0eceb;
   text-align: justify;
-  height: 70%;
+  height: 80%;
   /*overflow: hidden;*/
   overflow: auto;
   background-color: rgba(0, 0, 0, .3);
@@ -229,7 +229,7 @@ h1 {
 
 #template a{
   text-decoration: none;
-  color: #708f97;
+  color: #99bbff;
 }
 #template a:visited {
   color: ##708f97;
@@ -246,9 +246,9 @@ h1 {
 }
 
 #template img:hover {
-  -webkit-opacity: .8;
-  -moz-opacity: .8;
-  opacity: .8;
+  -webkit-opacity: .7;
+  -moz-opacity: .7;
+  opacity: .7;
 }
 
 @media only screen and (max-width: 768px) {
@@ -275,4 +275,13 @@ h1 {
   h1 {
     font-size: 200%;
   }
+}
+
+table, th, td {
+    border: 1px solid #e6ffff;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 1%;
+    text-align: left;
 }
