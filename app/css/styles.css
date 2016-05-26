@@ -2,19 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #FBFBFB  ;
-}
-
-@media only screen and (max-width: 768px) {
-  body{
-    background-color: #FBFBFB  ;
-  }
-}
-
-@media only screen and (orientation: landscape){
-  body{
-    background-color: #FBFBFB  ;
-  }
+    background-color: #FCFFFC;
 }
 
 .row::after {
@@ -90,7 +78,7 @@ body{
     border: none;
     padding: 8px;
     margin-bottom: 7px;
-    background-color: #e05038;
+    background-color: #c43235;
     color: #ffffff;
     text-align: right;
 }
@@ -100,7 +88,8 @@ body{
 }
 
 #menu ul li button:hover {
-  background: url("images/bg2.jpg");
+  /*background: url("images/rpt.png");*/
+  background-color: #667467;
   color: #3b3a36;
 }
 
