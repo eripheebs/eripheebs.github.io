@@ -204,3 +204,125 @@ th, td {
     padding: 1%;
     text-align: left;
 }
+
+#homepic {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height:80%;
+  width: 70%;
+}
+
+#homeback {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("images/bgrd.jpg");
+  background-size: 100%;
+}
+
+#curtain{
+  position: fixed;
+  top: 0;
+  left: 20%;
+  background-color: #FCFFFC;
+  height: 100%;
+  width: 20%;
+}
+
+#curtain2{
+  position: fixed;
+  top: 0;
+  left: 70%;
+  background-color: #FCFFFC;
+  height: 100%;
+  width: 27%;
+}
+
+#intro{
+  position: fixed;
+  bottom: 15%;
+  right: 10%;
+  background-color: #f6f1ed;
+  height: 50%;
+  width: 60%;
+  padding: 5%;
+  font-family: Work Sans;
+  font-size: 12px;
+  color: #97743a;
+}
+
+#intro > div {
+  vertical-align: top;
+  display: inline-block;
+  margin-right: 2%;
+  margin-left: 2%;
+  text-align: justify;
+}
+
+#welcome{
+  width: 35%;
+  height: 100%;
+  overflow: auto;
+}
+
+#welcome span{
+  text-decoration: none;
+  color: #16174f
+}
+
+#welcome span:hover {
+  color: #963019;
+}
+
+#checkout a{
+  text-decoration: none;
+  color: #16174f
+}
+
+#checkout a:hover {
+  color: #963019;
+}
+
+#checkout span{
+  text-decoration: none;
+  color: #16174f
+}
+
+#checkout span:hover {
+  color: #963019;
+}
+
+#checkout{
+  width: 35%;
+}
+
+@media only screen and (max-width: 768px) {
+  #curtain{
+    width: 0;
+  }
+  #curtain2{
+    width: 0;
+  }
+  #intro{
+    top: 45%;
+    width: 80%;
+    left: 10%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #curtain{
+    width: 0;
+  }
+  #curtain2{
+    width: 0;
+  }
+  #intro{
+    top: 45%;
+    width: 80%;
+    left: 10%;
+  }
+}

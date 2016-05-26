@@ -26,12 +26,24 @@
   </head>
   <body ng-controller="MainCtrl">
 
+    <div id="homeback" ng-hide="!onHome()"></div>
+    <div id="curtain" ng-hide="!onHome()"></div>
+    <div id="curtain2" ng-hide="!onHome()"></div>
+    <div id="homepic" ng-hide="!onHome()"><img src="https://eripheebs.github.io/app/css/images/3.gif" /></div>
+    <div id="intro" ng-hide="!onHome()">
+      <div id="welcome">WELCOME<br>
+        <hr>
+         I'm Erika, a budding software developer based in London. I recently graduated with a degree in Philosophy and Psychology from the University of Oxford, then studied programming at Makers Academy where I became passionate about object-oriented design and clean, modular, test-driven code. I'm an artificial intelligence buff and love to read and eat. To read more about me, click <span id="link" ng-click="changeTemplate(cv)">here<span>.
+       </div>
+      <div id="checkout">PROJECTS<br>
+      <hr>
+        I'm currently obsessed with Javascript, but I like working in new languages and am comfortable learning new stacks fairly quickly. If you would like to get in touch and work on something together, email me <a href="mailto:erikapheby@gmail.com">here</a>. Contributions to my repositories are always welcome! Just submit a pull request. To check out some work I've done, click <span id="link" ng-click="changeTemplate(portfolio)">here<span>.
+      </div>
+    </div>
+
   <div class="row">
     <div class="col-9 col-m-12" id="content-container">
-      <!-- <div id="template" ng-hide="onHome()" ng-include="template.url"></div> -->
-      <div id="template">
-        <img src="https://eripheebs.github.io/app/css/images/3.jpg" />
-      </div>
+      <div id="template" ng-hide="onHome()" ng-include="template.url"></div>
     </div>
 
     <div class="col-3" id="menu">
