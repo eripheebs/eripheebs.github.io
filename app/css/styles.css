@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #FCFFFC;
+  background-color: #FCFFFC;
 }
 
 .row::after {
@@ -89,7 +89,7 @@ body{
 
 #menu ul li button:hover {
   /*background: url("images/rpt.png");*/
-  background-color: #667467;
+  background-color: #16174f;
   color: #3b3a36;
 }
 
