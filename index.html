@@ -14,33 +14,32 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Voltaire">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Inder">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Work+Sans">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Nixie+One">
     <link rel="stylesheet" href="app/css/styles.css">
 
     <script src="app/js/app.js"></script>
     <script src="app/js/controllers/mainCtrl.js"></script>
+    <script src="app/js/typed.js" type="text/javascript"></script>
+    <script src="app/js/typeAnimation.js" type="text/javascript"></script>
+
     <base href="/">
   </head>
   <body ng-controller="MainCtrl">
 
   <div class="row">
+    <div class="col-9 col-m-12" id="content-container">
+      <!-- <div id="template" ng-hide="onHome()" ng-include="template.url"></div> -->
+      <div id="template">
+      </div>
+    </div>
+
     <div class="col-3" id="menu">
+        <span id="erika"></span>
       <ul ng-repeat="template in templates">
         <li><button id="{{template.name}}-menu" ng-click="changeTemplate(template.name)">{{template.name}}</button></li>
       </ul>
     </div>
-    <hr id="menu-hr" width=".8" size="300%">
-
-    <div class="col-9 col-m-12" id="content-container">
-      <div id="template" ng-hide="onHome()" ng-include="template.url"></div>
-    </div>
   </div>
-
-    <div class="header">
-      <div id="title">
-        <h1>ERIKA PHEBY</h1>
-      </div>
-      <hr>
-    </div>
 
   </body>
 </html>
